@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="683e4048-cbc8-4b28-b2a8-d762badfc287" name="Changes" comment="generic practice 1">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Anotations.kt" afterDir="false" />
+    <list default="true" id="683e4048-cbc8-4b28-b2a8-d762badfc287" name="Changes" comment="generic practice 2, Annotations">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/higher_order_function_game/game.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aquarium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/aquarium.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/aquarium/generics/Aquarium.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/aquarium/generics/Aquarium.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/buildings/BaseBuildingsMaterial.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/buildings/BaseBuildingsMaterial.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,15 +33,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Kotlin.AnotationsKt">
+}</component>
+  <component name="RunManager" selected="Kotlin.GameKt">
     <configuration name="AnotationsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AnotationsKt" />
       <module name="aquarium" />
@@ -66,8 +63,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="book.MainKt" />
+    <configuration name="GameKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="higher_order_function_game.GameKt" />
       <module name="aquarium" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,11 +79,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.GameKt" />
         <item itemvalue="Kotlin.AnotationsKt" />
         <item itemvalue="Kotlin.BaseBuildingsMaterialKt" />
         <item itemvalue="Kotlin.AquariumKt" />
         <item itemvalue="Kotlin.PuppyGameKt" />
-        <item itemvalue="Kotlin.MainKt (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -115,23 +112,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689262988963</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="generic practice 2, Annotations">
+      <option name="closed" value="true" />
+      <created>1689690980182</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689690980182</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit" />
     <MESSAGE value="generic practice 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="generic practice 1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/Anotations.kt</url>
-          <line>36</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="generic practice 2, Annotations" />
+    <option name="LAST_COMMIT_MESSAGE" value="generic practice 2, Annotations" />
   </component>
 </project>
