@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="683e4048-cbc8-4b28-b2a8-d762badfc287" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/buildings/BaseBuildingsMaterial.kt" afterDir="false" />
+    <list default="true" id="683e4048-cbc8-4b28-b2a8-d762badfc287" name="Changes" comment="generic practice 1">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Anotations.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aquarium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/aquarium.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/aquarium/generics/Aquarium.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/aquarium/generics/Aquarium.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/buildings/BaseBuildingsMaterial.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/buildings/BaseBuildingsMaterial.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -41,7 +44,14 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.BaseBuildingsMaterialKt">
+  <component name="RunManager" selected="Kotlin.AnotationsKt">
+    <configuration name="AnotationsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AnotationsKt" />
+      <module name="aquarium" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AquariumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aquarium.generics.AquariumKt" />
       <module name="aquarium" />
@@ -70,20 +80,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpiceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new_spice.SpiceKt" />
-      <module name="aquarium" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.AnotationsKt" />
         <item itemvalue="Kotlin.BaseBuildingsMaterialKt" />
         <item itemvalue="Kotlin.AquariumKt" />
         <item itemvalue="Kotlin.PuppyGameKt" />
         <item itemvalue="Kotlin.MainKt (2)" />
-        <item itemvalue="Kotlin.SpiceKt" />
       </list>
     </recent_temporary>
   </component>
@@ -104,11 +107,31 @@
       <option name="project" value="LOCAL" />
       <updated>1689258438328</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="generic practice 1">
+      <option name="closed" value="true" />
+      <created>1689262988963</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689262988963</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+    <MESSAGE value="generic practice 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="generic practice 1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/Anotations.kt</url>
+          <line>36</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
