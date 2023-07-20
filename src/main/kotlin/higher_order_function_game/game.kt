@@ -45,26 +45,24 @@ class Location(private val width: Int, private val height: Int) {
         return !(isOutOflLimit(coordinate.first) || isOutOflLimit(coordinate.second))
     }
 
-    fun isValidMove(direction: Directions): Boolean {
-        val newPosition = when (direction) {
+    private fun getNewPosition(direction: Directions): Pair<Int, Int> {
+        return when (direction) {
             Directions.NORTH -> Pair(currentPosition.first, currentPosition.second + 1)
             Directions.SOUTH -> Pair(currentPosition.first, currentPosition.second - 1)
             Directions.WEST -> Pair(currentPosition.first - 1, currentPosition.second)
             Directions.EAST -> Pair(currentPosition.first + 1, currentPosition.second)
             else -> currentPosition
         }
+    }
+
+    fun isValidMove(direction: Directions): Boolean {
+        val newPosition = getNewPosition(direction)
         return isValidCoordinate(newPosition)
     }
 
     fun updateCurrentLocation(direction: Directions) {
-        val newPosition = when (direction) {
-            Directions.NORTH -> Pair(currentPosition.first, currentPosition.second + 1)
-            Directions.SOUTH -> Pair(currentPosition.first, currentPosition.second - 1)
-            Directions.WEST -> Pair(currentPosition.first - 1, currentPosition.second)
-            Directions.EAST -> Pair(currentPosition.first + 1, currentPosition.second)
-            else -> currentPosition
-        }
-        currentPosition = newPosition
+
+        currentPosition = getNewPosition(direction)
     }
 
     fun resetLocation() {
@@ -129,9 +127,4 @@ fun main() {
         println("Current Path: ${game.path} ")
         turn++
     }
-    /*north(game)
-    south(game)
-    east(game)
-    west(game)
-    end(game)*/
 }
